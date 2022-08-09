@@ -1,0 +1,239 @@
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~
+$ cd /c/Users/josue/Desktop/UNIVERSIDAD/SEMESTRE_8/Analisis_de_Sistemas_II/1er_parcial/PARCIAL/Prototipo
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~/Desktop/UNIVERSIDAD/SEMESTRE_8/Analisis_de_Sistemas_II/1er_parcial/PARCIAL/Prototipo
+$ git clone https://github.com/JasonOrtega10/PrototipoIP.git
+Cloning into 'PrototipoIP'...
+remote: Enumerating objects: 26, done.
+remote: Counting objects: 100% (26/26), done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 26 (delta 2), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (26/26), 10.36 KiB | 342.00 KiB/s, done.
+Resolving deltas: 100% (2/2), done.
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~/Desktop/UNIVERSIDAD/SEMESTRE_8/Analisis_de_Sistemas_II/1er_parcial/PARCIAL/Prototipo
+$ cd
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~
+$
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~
+$ ls
+ -1.14-windows.xml
+'3D Objects'/
+ AppData/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Desktop/
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ Impresoras@
+ Intel/
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ OpenVPN/
+'PHS-150 Audio 7.1'/
+ Pictures/
+ Plantillas@
+ PycharmProjects/
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Sti_Trace.log
+ Videos/
+'VirtualBox VMs'/
+ ansel/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ pseint/
+ source/
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~
+$ git remote add origin https://github.com/JasonOrtega10/PrototipoIP.git
+fatal: not a git repository (or any of the parent directories): .git
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~
+$ cd /c/Users/josue/Desktop/UNIVERSIDAD/SEMESTRE_8/Analisis_de_Sistemas_II/1er_parcial/PARCIAL/Prototipo
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~/Desktop/UNIVERSIDAD/SEMESTRE_8/Analisis_de_Sistemas_II/1er_parcial/PARCIAL/Prototipo
+$ ls
+PrototipoIP/
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~/Desktop/UNIVERSIDAD/SEMESTRE_8/Analisis_de_Sistemas_II/1er_parcial/PARCIAL/Prototipo
+$ cd PrototipoIP/
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~/Desktop/UNIVERSIDAD/SEMESTRE_8/Analisis_de_Sistemas_II/1er_parcial/PARCIAL/Prototipo/PrototipoIP (main)
+$ ls
+App_ParcialAnalisis/
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~/Desktop/UNIVERSIDAD/SEMESTRE_8/Analisis_de_Sistemas_II/1er_parcial/PARCIAL/Prototipo/PrototipoIP (main)
+$ git remote add origin2 https://github.com/JasonOrtega10/PrototipoIP.git
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~/Desktop/UNIVERSIDAD/SEMESTRE_8/Analisis_de_Sistemas_II/1er_parcial/PARCIAL/Prototipo/PrototipoIP (main)
+$ git add .
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~/Desktop/UNIVERSIDAD/SEMESTRE_8/Analisis_de_Sistemas_II/1er_parcial/PARCIAL/Prototipo/PrototipoIP (main)
+$ git commit -m "Diagramas"
+[main 222c53b] Diagramas
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 DIAGRAMAS/Diagrama 0 e hijo.png
+ create mode 100644 DIAGRAMAS/Diagrama Relacional.PNG
+ create mode 100644 DIAGRAMAS/Diagrama de contexto.png
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~/Desktop/UNIVERSIDAD/SEMESTRE_8/Analisis_de_Sistemas_II/1er_parcial/PARCIAL/Prototipo/PrototipoIP (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 84.46 KiB | 16.89 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/JasonOrtega10/PrototipoIP.git
+   027492c..222c53b  main -> main
+
+josue@DESKTOP-2GIIUQJ MINGW64 ~/Desktop/UNIVERSIDAD/SEMESTRE_8/Analisis_de_Sistemas_II/1er_parcial/PARCIAL/Prototipo/PrototipoIP (main)
+$ git log
+commit 222c53b7bf2119358fb746a7d8124e6b50ae07ec (HEAD -> main, origin/main, origin/HEAD)
+Author: JasonOrtega10 <jortegal@miumg.edu.gt>
+Date:   Tue Aug 9 14:34:54 2022 -0600
+
+    Diagramas
+
+commit 027492ce611c4a54c041a13ea1762e71f39c786b
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 14:23:54 2022 -0600
+
+    Add files via upload
+
+commit 8dd702116c4eee83de725862f52265ae44458c1a
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 12:44:46 2022 -0600
+
+    borro documento de practica
+
+commit 09c8205d7ec357819526fcc2b2252e6ee4de5ac1
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 11:42:46 2022 -0600
+
+:
+commit 222c53b7bf2119358fb746a7d8124e6b50ae07ec (HEAD -> main, origin/main, origin/HEAD)
+Author: JasonOrtega10 <jortegal@miumg.edu.gt>
+Date:   Tue Aug 9 14:34:54 2022 -0600
+
+    Diagramas
+
+commit 027492ce611c4a54c041a13ea1762e71f39c786b
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 14:23:54 2022 -0600
+
+    Add files via upload
+
+commit 8dd702116c4eee83de725862f52265ae44458c1a
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 12:44:46 2022 -0600
+
+    borro documento de practica
+
+commit 09c8205d7ec357819526fcc2b2252e6ee4de5ac1
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 11:42:46 2022 -0600
+
+...skipping...
+commit 222c53b7bf2119358fb746a7d8124e6b50ae07ec (HEAD -> main, origin/main, origcommit 222c53b7bf2119358fb746a7d8124e6b50ae07ec (HEAD -> main, origin/main, orig
+in/HEAD)
+Author: JasonOrtega10 <jortegal@miumg.edu.gt>
+Date:   Tue Aug 9 14:34:54 2022 -0600
+
+    Diagramas
+
+commit 027492ce611c4a54c041a13ea1762e71f39c786b
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 14:23:54 2022 -0600
+
+    Add files via upload
+
+commit 8dd702116c4eee83de725862f52265ae44458c1a
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 12:44:46 2022 -0600
+
+    borro documento de practica
+
+commit 09c8205d7ec357819526fcc2b2252e6ee4de5ac1
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 11:42:46 2022 -0600
+
+:...skipping...
+commit 222c53b7bf2119358fb746a7d8124e6b50ae07ec (HEAD -> main, origin/main, origin/HEAD)
+Author: JasonOrtega10 <jortegal@miumg.edu.gt>
+Date:   Tue Aug 9 14:34:54 2022 -0600
+
+    Diagramas
+
+commit 027492ce611c4a54c041a13ea1762e71f39c786b
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 14:23:54 2022 -0600
+
+    Add files via upload
+
+commit 8dd702116c4eee83de725862f52265ae44458c1a
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 12:44:46 2022 -0600
+
+    borro documento de practica
+
+commit 09c8205d7ec357819526fcc2b2252e6ee4de5ac1
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 11:42:46 2022 -0600
+
+    Create asdf
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)...skipping...
+commit 222c53b7bf2119358fb746a7d8124e6b50ae07ec (HEAD -> main, origin/main, origin/HEAD)
+Author: JasonOrtega10 <jortegal@miumg.edu.gt>
+Date:   Tue Aug 9 14:34:54 2022 -0600
+
+    Diagramas
+
+commit 027492ce611c4a54c041a13ea1762e71f39c786b
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 14:23:54 2022 -0600
+
+    Add files via upload
+
+commit 8dd702116c4eee83de725862f52265ae44458c1a
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 12:44:46 2022 -0600
+
+    borro documento de practica
+
+commit 09c8205d7ec357819526fcc2b2252e6ee4de5ac1
+Author: JasonOrtega10 <109248482+JasonOrtega10@users.noreply.github.com>
+Date:   Tue Aug 9 11:42:46 2022 -0600
+
+    Create asdf
